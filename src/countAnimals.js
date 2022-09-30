@@ -1,5 +1,5 @@
-const { species } = require('../data/zoo_data');
-const data = require('../data/zoo_data');
+// const { species } = require('../data/zoo_data');
+// const data = require('../data/zoo_data');
 
 // const [ratin, quantos] = species;
 // const teste2 = ratin.name;
@@ -19,4 +19,4 @@ const data = require('../data/zoo_data');
 // }
 // console.log(countAnimals());
 
-module.exports = countAnimals;
+// module.exports = countAnimals;
