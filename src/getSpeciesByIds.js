@@ -3,7 +3,7 @@ const data = require('../data/zoo_data');
 
 function getSpeciesByIds(...ids) {
   return species.filter((specie) => {
-    if (ids === 'undefined') {
+    if (ids === undefined) {
       return [];
     } return ids.includes(specie.id);
   });
