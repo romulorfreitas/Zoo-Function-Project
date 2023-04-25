@@ -61,8 +61,8 @@ function getSchedule(scheduleTarget) {
   // caso receba outro valor que nao dia/animal retorna todos os dias/atracoes
 }
 
-console.log(verifyDay());
-// console.log(getSchedule('Tuesday'));
+// console.log(verifyDay());
+console.log(getSchedule('Monday'));
 // console.log(getSchedule('lions'));
 // console.log(getSchedule('drogon'));
 module.exports = getSchedule;
